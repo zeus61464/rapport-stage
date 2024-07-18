@@ -8,7 +8,7 @@ Le stage que j'ai effectué portait sur la conception d’un simulateur numériq
 
 Mon travail consistait à développer des interfaces graphiques dans Matlab permettant de contrôler la vitesse et les mouvements de 16 moteurs, essentiels pour la manipulation de ces robots.
 
-```mermaid
+```{.mermaid width=400}
 graph TD;
     A[Matlab]-->|Sends commands| B[C shared library];
     B--> |Returns values|A;
